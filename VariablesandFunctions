@@ -23,7 +23,7 @@ contract Property{
     
     
     // getter function, returns a state variable
-    // a function declared `view` does not alter the blockchain 
+    // a function declared `view` does not alter or change the blockchain 
     function getPrice() public view returns(uint){
         return price;
     }
